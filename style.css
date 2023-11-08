@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(72, 84, 147);
+}
+
+#open-modal{
+    margin: 50px 50px;
+}
+dialog{
+    padding: 2rem;
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#close-signup , #close-login{
+   border: none;
+   cursor: pointer;
+}
+.title{
+padding-bottom: 2rem ;
+}
+
+.input-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom:  1.5rem;;
+}
+.input-info input{
+    border: none;
+    border-bottom: solid 0.5px grey;
+    
+}
+
+.input-info input::placeholder{
+    font-size: 0.8rem;
+}
+
+ input{
+    outline: none;
+}
+
+
+
+.submit{
+    background-color: blue;
+    border-radius: 2px;
+    width: 100%;
+    margin:1rem 0 1rem 0 ;
+    padding: 0.5rem ;
+    color: white;
+    border: none;
+    
+}
+.submit:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+footer, aside{ 
+    font-size: 0.8rem;
+    display: flex;
+   gap: 8px;
+   /* justify-content: space-between; */
+   align-items: center;
+}
+
+footer a , aside a{
+    text-decoration: none;
+    color: blue;
+}
